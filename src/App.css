@@ -1,0 +1,64 @@
+:root {
+  --mainBlue: #f9f9f9;
+  --lightBlue: #ffeb18;
+  --mainWhite: #ffffff;
+  --mainDark: #010101;
+  --mainYellow: #ffeb18;
+}
+
+/*Need !important to override bootstrap*/
+body {
+  font-family: 'Heebo', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.text-blue {
+  color: var(--mainDark);
+}
+
+.text-bright {
+  color: var(--mainYellow);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+  cursor: pointer;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainDark);
+}
+
+.canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+}
+
+::-moz-selection {
+  color: var(--mainYellow);
+}
+::selection {
+  color: var(--mainYellow);
+}
