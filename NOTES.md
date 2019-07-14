@@ -1,6 +1,8 @@
 # theStore
 An ecommerce store built with React.js
 
+Project Link - https://thedevstore.netlify.com
+
 Dependencies used in this project: 
   - bootstrap
   - react-particles-js
